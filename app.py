@@ -140,4 +140,5 @@ if st.sidebar.button('Phân Loại Hạt Gạo', type="primary"):
                 
                 st.dataframe(prob_df, hide_index=True)
                 
+
 st.info("Nhập các đặc trưng ở thanh bên trái và nhấn nút 'Phân Loại Hạt Gạo' để xem kết quả dự đoán.")
